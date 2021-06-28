@@ -1,0 +1,18 @@
+{
+  "name": "electron-upload-app",
+  "version": "1.0.0",
+  "main": "app/index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^11.4.9",
+    "node-sass": "^5.0.0"
+  },
+  "dependencies": {
+    "chokidar": "^3.5.2",
+    "drag-drop": "^6.1.0",
+    "fs-extra": "^9.1.0",
+    "open": "^7.4.2"
+  }
+}
