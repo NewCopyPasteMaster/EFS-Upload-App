@@ -5,6 +5,7 @@ const os = require( 'os' );
 const open = require( 'open' );
 const chokidar = require( 'chokidar' );
 
+
 // local dependencies
 const notification = require( './notification' );
 

@@ -75,6 +75,7 @@ ipcMain.handle('app:on-fs-dialog-open', (event) => {
     }));
 });
 
+
 /*-----*/
 
 // listen to file delete event

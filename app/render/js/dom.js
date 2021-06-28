@@ -1,5 +1,6 @@
 const { ipcRenderer } = require( 'electron' );
 
+
 // copy file
 window.copyFile = function ( event, itemId ) {
     event.preventDefault();

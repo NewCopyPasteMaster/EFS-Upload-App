@@ -1,5 +1,6 @@
 const { Notification } = require( 'electron' );
 
+
 // display files added notification
 exports.filesAdded = ( size ) => {
     const notif = new Notification( {

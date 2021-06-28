@@ -6,6 +6,7 @@ const dom = require( './dom' );
 
 /*****************************/
 
+
 // get list of files from the `main` process
 ipcRenderer.invoke( 'app:get-files' ).then( ( files = [] ) => {
     dom.displayFiles( files );
